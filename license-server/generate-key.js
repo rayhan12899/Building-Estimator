@@ -1,0 +1,1 @@
+const c=require('crypto');const k=c.generateKeyPairSync('ed25519');console.log('PUBLIC KEY (embed in electron/main.js):\n'+k.publicKey.export({type:'spki',format:'pem'}));console.log('PRIVATE KEY (store only as server secret):\n'+k.privateKey.export({type:'pkcs8',format:'pem'}));

@@ -1,0 +1,13 @@
+{
+  "name": "building-estimator-license-server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate-admin-key": "node generate-key.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
